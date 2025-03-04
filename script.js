@@ -4,7 +4,7 @@ function getrandom() {
 }
 let ttime=0;
 let table=document.getElementById("output");
-table.innerHTML = `<tr id="loading-row"><td colspan="2">Loading...</td></tr>`;
+table.innerHTML = "Loading...";
 let promise1=()=>{
 	let time=getrandom();
 let	stime=time;
